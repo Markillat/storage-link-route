@@ -1,0 +1,28 @@
+{
+    "name": "markillat/storage-link-route",
+    "description": "public storage link",
+    "autoload": {
+        "psr-4": {
+            "Markillat\\StorageLinkRoute\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Markillat\\StorageLinkRoute\\tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Markillat",
+            "email": "jose.quilcaabarca@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": ["Markillat\\StorageLinkRoute\\RouteStorageServiceProvider"]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.13"
+    }
+}
