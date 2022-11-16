@@ -1,6 +1,7 @@
 {
     "name": "markillat/storage-link-route",
     "description": "public storage link",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Markillat\\StorageLinkRoute\\": "src/"
